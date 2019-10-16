@@ -1,0 +1,7 @@
+run mmc
+file > add/snapin > certificates > computer accoutn > finish
+personal > obirisi certifikate
+u folderu certificates pokreni fiskal 2 > localmachine , yes, password = u folderu
+next
+
+pogledaj ngxdatatable.

@@ -1,0 +1,23 @@
+﻿@using Microsoft.Ajax.Utilities
+@model Vidly.Models.Customer
+@*@model Vidly.Models.Customer*@
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+<h1>@Html.ActionLink(Model.Name, "Edit", "Customers")</h1>
+
+<ul>
+    <li>Membership Type: @Model.MembershipType.Name</li>
+    @if (@Model.Birthday != DateTime.Parse("01-01-1900"))
+    {
+        <li>Birthday: @Model.Birthday</li>
+    }
+</ul>
+
+
+
+
+
